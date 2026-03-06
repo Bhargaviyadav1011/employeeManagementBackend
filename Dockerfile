@@ -1,5 +1,5 @@
-# Use an official OpenJDK runtime as a parent image
-FROM openjdk:17-jdk-alpine
+# Use an official Eclipse Temurin runtime as a parent image
+FROM eclipse-temurin:17-jre-alpine
 
 # Set the working directory
 WORKDIR /app
